@@ -2,6 +2,9 @@
   "name": "bblue-mcp",
   "version": "1.0.0",
   "type": "module",
+  "bin": {
+    "bblue-mcp": "./server.mjs"
+  },
   "scripts": {
     "start": "node server.mjs"
   },
